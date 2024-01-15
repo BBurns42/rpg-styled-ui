@@ -18,7 +18,7 @@
     padding-left: 128px;
 
     background-image: url("../ui/other/paused.webp");
-    animation: rotation 20s infinite linear;
+    animation: fa-spin 20s infinite linear;
 }
 
 #logo {
