@@ -9,6 +9,7 @@
     --main-text-light-color: #98968a;
     --main-text-very-light-color: #d4d1c3;
     --border-color: #372d25;
+    --main-text-comp-color: #626068;
 }
 
 #pause img[src*="icons/svg/clockwork.svg"] {
@@ -220,6 +221,10 @@ body.compact-mode #logo {
 
 #chat-log .message.blind::before {
     filter: brightness(1.0) hue-rotate(180deg);
+}
+
+.message .message-header .title {
+    color: var(--main-text-light-color) !important; /*8e8073*/
 }
 
 #chat-log .message .message-header {
@@ -1042,23 +1047,32 @@ button#roll-hd:hover::before {
 
 .sheet.journal-entry .pages-list .page-heading .page-title,
 .sheet.journal-entry .pages-list .page-heading .page-title:hover {
-    color: #5d180d !important;
+    color: var(--main-text-very-light-color-color) !important;
+    text-shadow: 2px 2px 2px black;
     font-weight: bold;
 }
 
 .sheet.journal-entry .pages-list .h2 .heading-link,
 .sheet.journal-entry .pages-list .h2 .heading-link:hover {
-    color: #5d180d;
+    color: var(--main-text-light-color);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+.sheet.journal-entry .pages-list .h3 .heading-link,
+.sheet.journal-entry .pages-list .h4 .heading-link:hover {
+    color: var(--main-text-comp-color);
+    text-shadow: 2px 2px 2px black;
     font-weight: bold;
 }
 
 .sheet.journal-entry .pages-list .page-heading {
-    color: #5d180d;
+    color: var(--main-text-very-light-color);
     font-weight: bold;
 }
 
 .sheet.journal-entry .journal-sidebar .directory-header .view-mode {
-    color: #5d180d;
+    color: var(--main-text-very-light-color);
 }
 
 .directory .directory-header .header-search input {
@@ -1067,7 +1081,7 @@ button#roll-hd:hover::before {
 }
 
 .sheet.journal-entry .journal-sidebar .directory-header .collapse-toggle {
-    color: #5d180d;
+    color: var(--main-text-very-light-color);
 }
 
 .sheet.journal-entry .journal-entry-content {
