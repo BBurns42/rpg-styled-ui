@@ -948,6 +948,9 @@ body.game .fsc-nc.simple-calendar.window-app .window-content .fsc-ph .fsc-li{
     background-color: rgba(6, 4, 3, 0.92) !important;
     z-index:99;
 }
+body.game .simple-calendar.window-app .window-content .fsc-xb .fsc-ac.fsc-zb {
+    background-color: rgba(6, 4, 3, 0.92) !important;
+}
 body.game .simple-calendar.window-app header.window-header a.header-button.close {
     background: #a006;
     border: 1px solid #c008;
@@ -991,4 +994,9 @@ button#heartbeat-button {
     left: 5px !important;
     top: 10px !important;
     z-index: 999 !important;
+}
+
+/* Custom DnD 5e */
+.custom-dnd5e-counters-number > input {
+    background-color: var(--dnd5e-color-blue-gray-2);
 }

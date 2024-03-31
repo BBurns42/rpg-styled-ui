@@ -3,7 +3,7 @@
   "title": "RPG Styled UI for Foundry VTT",
   "description": "Theme for DnD5e.",
   "url": "https://github.com/BBurns42/rpg-styled-ui",
-  "version": "v1.2.1",
+  "version": "v1.2.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
@@ -16,7 +16,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "3.0.0",
-          "verified": "3.0.2"
+          "verified": "3.1.1"
         }
       },
       {
@@ -57,7 +57,7 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/BBurns42/rpg-styled-ui/main/module.json",
-  "download": "https://github.com/BBurns42/rpg-styled-ui/archive/refs/tags/v1.2.1.zip",
+  "download": "https://github.com/BBurns42/rpg-styled-ui/archive/refs/tags/v1.2.2.zip",
 
   "authors": [
     {
