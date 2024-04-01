@@ -1000,3 +1000,8 @@ button#heartbeat-button {
 .custom-dnd5e-counters-number > input {
     background-color: var(--dnd5e-color-blue-gray-2);
 }
+
+/* Challenge Tracker */
+.challenge-tracker {
+    background-color: transparent !important;
+}
